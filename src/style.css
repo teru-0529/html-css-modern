@@ -24,7 +24,10 @@ img {
 
 /* ヘッダー */
 .header {
-  height: 112px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 72px;
   background-color: #ffffff;
 }
 
