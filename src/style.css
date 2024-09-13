@@ -267,9 +267,19 @@ img {
     gap: 20px;
   }
 
+  .footer-container > .footer-site {
+    margin-bottom: 20px;
+  }
+
+  .footer-container > *:not(.footer-sns) {
+    justify-self: start;
+  }
+
   .footer-container > .footer-sns {
     grid-column: 2 / 3;
     grid-row: 1 / 4;
+    justify-self: end;
+    align-self: center;
   }
 }
 
