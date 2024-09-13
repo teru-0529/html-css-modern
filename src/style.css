@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* SNS X */
 .fa-twitter:before {
   content: '𝕏' !important;
   font-family: sans-serif !important;
@@ -241,4 +242,18 @@ img {
   display: block;
   color: #666666;
   font-size: 18px;
+}
+
+/* フッター */
+.footer {
+  padding: 70px 0;
+  background-color: #ffffff;
+  color: #707070;
+  font-size: 13px;
+}
+
+.footer-container {
+  display: grid;
+  gap: 50px;
+  justify-items: center;
 }
