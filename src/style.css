@@ -266,6 +266,11 @@ img {
     grid-template-rows: auto auto auto;
     gap: 20px;
   }
+
+  .footer-container > .footer-sns {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+  }
 }
 
 /* フッター：SNSメニュー */
