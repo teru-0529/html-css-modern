@@ -123,6 +123,10 @@ img {
   text-shadow: 0 0 6px #00000052;
 }
 
+.btn-accent {
+  background-color: #b72661;
+}
+
 /* 画像とテキスト */
 .imgtext {
   padding: var(--v-space) 0;
@@ -356,4 +360,52 @@ img {
 
 .entry-container > :last-child {
   margin-bottom: 0;
+}
+
+/* プラン */
+.plans {
+  padding: var(--v-space) 0;
+  background-color: #e9e5e9;
+}
+
+.plans-container {
+  display: grid;
+  gap: 27px;
+}
+
+@media (min-width: 768px) {
+  .plans-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* プラン：カード */
+.plan {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 27px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.plan h3 {
+  margin-bottom: 38px;
+  font-family: "Montserrat",sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.plan .desc {
+  margin-bottom: 38px;
+}
+
+.plan .price {
+  margin-top: auto;
+  margin-bottom: 22px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.plan .btn {
+  width: auto;
 }
