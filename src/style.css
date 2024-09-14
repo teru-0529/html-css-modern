@@ -313,3 +313,47 @@ img {
   justify-content: center;
   gap: 20px;
 }
+
+/* 記事 */
+.entry {
+  padding-bottom: var(--v-space);
+  background-color: #ffffff;
+}
+
+.entry-img img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  margin-bottom: calc(var(--v-space) * 2 / 3);
+}
+
+.entry .w-container {
+  max-width: 720px;
+}
+
+.entry .heading-decoration {
+  font-size: clamp(30px, 6.25vw, 48px);
+}
+
+.entry-container {
+  font-size: clamp(16px, 2.4vw, 18px);
+}
+
+.entry-container :where(h1, h2, h3, h4, h5, h6, p, figure, ul) {
+  margin-top: revert;
+  margin-bottom: revert;
+  padding: revert;
+  list-style: revert;
+}
+
+.entry-container p {
+  margin: 1.8em 0;
+}
+
+.entry-container > :first-child {
+  margin-top: 0;
+}
+
+.entry-container > :last-child {
+  margin-bottom: 0;
+}
