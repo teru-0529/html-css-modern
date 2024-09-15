@@ -23,10 +23,19 @@
         </a>
       </div>
 
-      <button class="navbtn">
+      <button class="navbtn" onclick="document.querySelector('html').classList.toggle('open')">
         <i class="fa fa-bars"></i>
+        <i class="fa fa-times"></i>
         <span class="sr-only">MENU</span>
       </button>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="content.html">サービス案内</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
