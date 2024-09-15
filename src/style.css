@@ -101,6 +101,19 @@ img {
   display: revert;
 }
 
+/* ナビゲーションメニュー：PC */
+@media (min-width: 768px) {
+  .navbtn {
+    display: none;
+  }
+
+  .nav ul {
+    display: flex;
+    gap: 40px;
+    color: #707070;
+  }
+}
+
 /* ナビゲーションメニュー：モバイル */
 @media (max-width: 767px) {
   .nav {
